@@ -1,0 +1,182 @@
+﻿.StartView {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-color: rgb(10, 157, 199);
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+.appStart {
+    background: url(../images/logoiclubs.png) no-repeat center top;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+    margin: -125px;
+}
+
+.event {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin: 27px;
+    padding: 4px 0px;
+    text-transform: uppercase;
+    background-color: #0c60ee;
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
+}
+
+.ready {
+    background-color: #4B946A;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .height75 {
+        min-height: 75vh;
+    }
+}
+
+@media screen and (orientation: landscape) {
+}
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+.body-tumblr {
+    font-family: -apple-system, "Helvetica Neue", "Segoe WP", sans-serif;
+}
+
+
+    .body-tumblr h1,
+    .body-tumblr h2,
+    .body-tumblr h3,
+    .body-tumblr h4,
+    .body-tumblr h5,
+    .body-tumblr h6,
+    .body-tumblr .h1,
+    .body-tumblr .h2,
+    .body-tumblr .h3,
+    .body-tumblr .h4,
+    .body-tumblr .h5,
+    .body-tumblr .h6 {
+        color: #ffffff;
+    }
+
+.box {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.marginTop15 {
+    padding-top: 15% !important;
+}
+
+.PlaceImage {
+    height: 40vh;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.place {
+    margin-top: -5px !important;
+}
+
+    .place .place-content {
+        padding: 20px;
+    }
+
+    .place .place-title {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+.white-text {
+    color: #FFFFFF !important;
+}
+
+.blue-grey {
+    background-color: #607d8b !important;
+}
+
+.cyan {
+    background-color: #00bcd4 !important;
+}
+.home .cyan a{
+    background-color: #00bcd4 !important;
+}
+
+.calm-bg {
+    background-color: #11c1f3;
+}
+
+.playBack input {
+    -webkit-appearance: slider-horizontal;
+}
+.plyBtn {
+    color: white;
+    font-size: large;
+}
+.stickToBottomPlayer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.stickToBottomPlayer *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.stickToBottomPlayer .plyBtn{
+    padding-bottom: 0px;
+}
+.center{
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+﻿<ion-view title="{{navTitle}}" align-title="center" class="home">
+    <ion-content>
+        <ion-slide-box auto-play ="true" does-continue ="true" on-slide-changed="slideHasChanged($index)">
+            <ion-slide ng-repeat="SlideShow in SlideShows" class="margin">
+                <div class="box" style="background-image:url({{SlideShow.URL}});">
+                    <h1 class="text-center padding marginTop15">{{SlideShow.Title}}</h1>
+                    <h6 class="text-center padding">{{SlideShow.Description}}</h6>                    
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list>
+            <ion-item class="item-remove-animate item-thumbnail-left item-icon-right cyan" ng-repeat="local in locales" type="item-text-wrap" href="#" ng-click="gotoLocation()">
+                <img ng-src="{{local.logo}}">
+                <h2 style="color:black;">{{local.name}}</h2>
+                <p style="font-size: 0.69em; background: #666;color: #fff;padding: 0px 6px;display: inline-block;border-radius: 3px;">{{local.tipo}}</p>
+                <p>{{local.direccion}}</p>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <ion-option-button class="button-energized" ng-click="favorito(local)"><i class="icon ion-heart"></i></ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

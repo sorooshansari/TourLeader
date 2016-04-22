@@ -1,0 +1,9 @@
+﻿<ion-view title="{{navTitle}}" align-title="center" class="home">
+    <ion-content>
+        <ion-searchbar [(ngModel)]="myInput"
+                       [hideCancelButton]="shouldHideCancel"
+                       (input)="onInput($event)"
+                       (cancel)="onCancel($event)">
+        </ion-searchbar>
+    </ion-content>
+</ion-view>

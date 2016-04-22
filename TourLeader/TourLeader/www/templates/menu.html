@@ -32,34 +32,58 @@
           see scss/themed.scss for implementation.
         -->
         <ion-header-bar class="bar-calm">
-            <h3>Places</h3>
+            <h3 class="white-text">Sounds</h3>
         </ion-header-bar>
 
-        <ion-content>
+        <ion-content class="menuContent ">
             <div class="list">
 
-                <div class="item item-divider">
-                    Shiraz
+                <div class="item item-divider center item-positive">
+                    This is Song name
                 </div>
 
-                <a class="item item-avatar" href="#">
-                    <img src="../images/48.jpg">
-                    <h2>Venkman</h2>
-                    <p>Back off, man. I'm a scientist.</p>
-                </a>
-                <a class="item item-avatar" href="#">
-                    <img src="../images/48.jpg">
-                    <h2>Venkman</h2>
-                    <p>Back off, man. I'm a scientist.</p>
+                <div class="item noMarginPadding" href="#">
+                    <div class="cyan-bg">
+                        <!--<div class="row">
+                            <div class="center">This is a basic Card</div>
+                        </div>-->
+                        <div class="row plyBtn">
+                            <div class="col col-offset-10"><i class="icon ion-play"></i></div>
+                            <div class="col"><i class="icon ion-pause"></i></div>
+                            <div class="col"><i class="icon ion-stop"></i></div>
+                            <div class="col">10s<i class="icon ion-arrow-return-left"></i></div>
+                        </div>
+                        <div class="list">
+                            <div class="item range cyan-bg noBoarder">
+                                <i>23:34</i>
+                                <input type="range" name="volume" min="0" max="100" value="33">
+                                <i>54:21</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-divider">
+                    Recently Played
+                </div>
+
+                <a href="#" class="item item-icon-left">
+                    <i class="icon ion-play"></i>
+                    Enter home address
                 </a>
 
-                <div class="item item-divider">
-                    Esfehan
-                </div>
-                <a class="item item-avatar" href="#">
-                    <img src="../images/48.jpg">
-                    <h2>Venkman</h2>
-                    <p>Back off, man. I'm a scientist.</p>
+                <a href="#" class="item item-icon-left">
+                    <i class="icon ion-play"></i>
+                    Enter phone number
+                </a>
+
+                <a href="#" class="item item-icon-left">
+                    <i class="icon ion-play"></i>
+                    Enter wireless password
+                </a>
+
+                <a href="#" class="item item-icon-left">
+                    <i class="icon ion-play"></i>
+                    Enter card information
                 </a>
 
             </div>

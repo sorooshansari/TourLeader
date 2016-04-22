@@ -158,25 +158,13 @@ angular.module('TourLeader.services', [])
         id:0,
         Title: 'Title0',
         Description: 'Description0',
-        URL: 'https://placehold.it/300x200'
+        URL: '../images/48.jpg'
     },
     {
         id: 1,
         Title: 'Title1',
         Description: 'Description1',
-        URL: 'https://placehold.it/300x200'
-    },
-    {
-        id: 2,
-        Title: 'Title2',
-        Description: 'Description2',
-        URL: 'https://placehold.it/300x200'
-    },
-    {
-        id: 3,
-        Title: 'Title3',
-        Description: 'Description3',
-        URL: 'https://placehold.it/300x200'
+        URL: '../images/39.jpg'
     }];
 
     return {

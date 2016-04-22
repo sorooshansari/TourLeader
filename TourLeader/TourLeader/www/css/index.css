@@ -116,23 +116,23 @@
     height: 40vh;
 }
 
-.card {
+/*.card {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
     background-color: #fff;
     border-radius: 2px;
-}
+}*/
 
-.place {
+.placeDisc {
     margin-top: -5px !important;
 }
 
-    .place .place-content {
+    .placeDisc .placeDisc-content {
         padding: 20px;
     }
 
-    .place .place-title {
+    .placeDisc .placeDisc-title {
         color: #fff;
         font-size: 24px;
         font-weight: 300;
@@ -150,11 +150,14 @@
     background-color: #00bcd4 !important;
 }
 .home .cyan a{
-    background-color: #00bcd4 !important;
+    background-color: #F0F3F8 !important;
 }
 
 .calm-bg {
     background-color: #11c1f3;
+}
+.cyan-bg {
+    background-color: #00bcd4;
 }
 
 .playBack input {
@@ -179,4 +182,27 @@
 .center{
     margin: 0 auto;
     text-align: center;
+}
+.noBoarder{
+    border: none;
+}
+.marginBottom{
+    padding-bottom: 50px;
+}
+.noMarginPadding{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.likeBtn{
+    background-color: #F0F3F8;
+}
+.homeItems{
+    background-color: #F0F3F8;
+}
+.songName{
+    background-color: #00a5bb;
+    border: none;
+}
+.menuContent{
+    background-color: #d4faff !important;
 }
